@@ -18,6 +18,7 @@ menuToggle.addEventListener('click', () => {
     menuToggle.classList.toggle('active');
 });
 
+
 // Close Mobile Menu
 document.querySelectorAll('.nav-links a').forEach(item => {
     item.addEventListener('click', () => {

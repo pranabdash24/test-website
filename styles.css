@@ -28,7 +28,7 @@ body {
     width: 85%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 /* Loader Styles */
@@ -71,7 +71,7 @@ body {
 /* Navigation Styles */
 .navbar {
     background: rgba(50, 45, 41, 0.65) !important;
-    padding: 1rem 0;
+    padding: 0.01rem 0;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -517,4 +517,15 @@ body {
     .tagline {
         font-size: 1.1rem;
     }
+}
+
+.navbar {
+    min-height: 20px; /* Match your header height */
+}
+
+.menu-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 45%;
+    transform: translateY(-50%);
 }
